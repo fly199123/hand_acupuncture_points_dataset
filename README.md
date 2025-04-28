@@ -5,5 +5,4 @@ and the original hand images were obtained through frame-by-frame sampling and i
 professional physicians were then invited to annotate the acupoints on the pictures. The palm images are labeled with three acupoints: 
 Yuji (LU10), Shenmen (HT7), and Zhongzhu (TE3); the dorsum images are labeled with two acupoints: Hegu (LI4) and Yangxi (LI5).
 
-![Fig1](image/Fig1.png)
 
