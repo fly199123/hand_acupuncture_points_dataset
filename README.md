@@ -6,3 +6,4 @@ professional physicians were then invited to annotate the acupoints on the pictu
 Yuji (LU10), Shenmen (HT7), and Zhongzhu (TE3); the dorsum images are labeled with two acupoints: Hegu (LI4) and Yangxi (LI5).
 
 ![Fig1](image/Fig1.png)
+
