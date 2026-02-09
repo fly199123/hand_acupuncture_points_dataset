@@ -1,8 +1,5 @@
 # Hand_acupuncture_points_dataset
 
-The dataset includes 814 palm images and 903 dorsum images. Hand videos were collected by recruiting volunteers of different age groups, 
-and the original hand images were obtained through frame-by-frame sampling and image selection. Following the COCO dataset labeling format, 
-professional physicians were then invited to annotate the acupoints on the pictures. The palm images are labeled with three acupoints: 
-Yuji (LU10), Shenmen (HT7), and Zhongzhu (TE3); the dorsum images are labeled with two acupoints: Hegu (LI4) and Yangxi (LI5).
+The dataset preparation process was divided into three stages. First, volunteers from different age groups were recruited to collect hand videos, from which frame-by-frame sampling and image screening were performed to obtain 1,717 original hand images. To improve the model’s generalization and robustness, brightness, color, and contrast augmentation were applied to the original images, yielding a total of 8,585 images. Next, professional physicians were invited to annotate the acupoints using the COCO annotation format. Specifically, three acupoints — Zhongzhu (TE3), Hegu (LI4), and Yangxi (LI5) — were labeled on the dorsum of the hand, while two acupoints — Yuji (LU10) and Shenmen (HT7) — were labeled on the palmar side. It should be noted that each acupoint was independently annotated by three senior physicians with more than five years of clinical experience. Any discrepancies were resolved through discussion until a consensus was reached. This process minimized subjective bias and reduced random annotation errors to the greatest extent possible. Finally, following the dataset split strategy described in prior work, the dataset was split into training and test sets at a 7:3 ratio.
 
 
